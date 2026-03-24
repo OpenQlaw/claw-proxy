@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Secrets — NEVER commit (but .secrets.baseline IS committed — it's the audit record)
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# Quota state is machine-local
+~/.config/claw-proxy/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution
+*.whl
+*.tar.gz
+MANIFEST
